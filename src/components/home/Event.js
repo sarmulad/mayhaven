@@ -12,7 +12,7 @@ const  Events = () => {
         className="absolute object-cover left-0 top-0 opacity-[.8] h-full w-full pointer-events-none select-none"
       />
       <div
-        className="max-w-[880px] mx-auto px-8 pt-[59px] xl:pt-[50px]"
+        className="max-w-[880px] mx-auto px-5 pt-[59px] xl:pt-[50px]"
         id="events"
        >
         <h4
