@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useLocation } from 'react-router-dom'
 import Logo from "assets/icons/logo.svg";
-import LogoWhite from "assets/icons/logowhite.svg";
+// import LogoWhite from "assets/icons/logowhite.svg";
 
 import { ReactComponent as Hamburger } from "assets/icons/hamburger.svg";
 import { ReactComponent as Exit } from "assets/icons/exit.svg";
@@ -67,10 +67,10 @@ const MobileNav = () => {
       {
         mobileNavIsOpen ? (
           <>
-            <div className=" flex justify-between mb-[38px] items-center">
-            <a href="/">
+            <div className=" flex justify-end mb-[38px] items-center">
+            {/* <a href="/">
             <img alt="menu" className="inline" src={LogoWhite} />
-            </a>
+            </a> */}
               <Exit className="w-[15px] h-[15px]" onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
             </div>
              <div className="flex text-white flex-col gap-[48px] pt-[50px]">
