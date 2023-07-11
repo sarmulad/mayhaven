@@ -28,7 +28,7 @@ const  Events = () => {
             <h5
               className={clsx(
                 texts.berk_h5_bold,
-                "text-mayhaven-dark-brown xl:text-[24px] xl:leading-[30px]"
+                "text-mayhaven-dark-brown text-[20px] xl:text-[24px] xl:leading-[30px]"
               )}
             >
              Building Beyond Ife

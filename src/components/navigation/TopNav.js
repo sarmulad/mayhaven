@@ -84,7 +84,7 @@ const MobileNav = () => {
         ) : (
           <div className="flex justify-between items-center max-h-[64px]">
               <a href="/">
-              <img alt="logo" className="inline" src={Logo} width={97.6} height={33.2}/>
+              <img alt="logo" className="inline" src={Logo} width={158.6} height={53.95}/>
               </a>
               <Hamburger width={30} height={30}  onClick={()=>setMobileNavIsOpen(!mobileNavIsOpen)}/>
           </div>        

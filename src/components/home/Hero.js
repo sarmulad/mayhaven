@@ -29,7 +29,7 @@ const Hero = () => {
             <img
             src={union2}
             alt="background-patterns"
-            className=" pointer-events-none select-none w-[132px] h-[270px] xl:w-[100%] xl:h-[100%]"
+            className=" pointer-events-none select-none w-[152px] h-[270px] xl:w-[100%] xl:h-[100%]"
             />
           </div>
 
