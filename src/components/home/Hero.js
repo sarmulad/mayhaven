@@ -37,7 +37,7 @@ const Hero = () => {
             <h2
               className={clsx(
                 texts.berk_h2_bold,
-                "max-w-[600px] text-center text-[47px] xl:text-[70px] xl:mr-[20px] px-[20px] xl:p-0  mx-auto xl:leading-[87px] text-mayhaven-blue xl:w-[585px]"
+                "max-w-[600px] text-start xl:text-start md:text-center text-[47px] xl:text-[70px] xl:mr-[20px] px-[20px] xl:p-0  mx-auto xl:leading-[87px] text-mayhaven-blue xl:w-[585px]"
               )}
             >
               Innovate, grow and scale with us at  <span className="text-mayhaven-dark-brown"> Mayhaven</span>
