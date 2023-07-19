@@ -24,12 +24,12 @@ const Hero = () => {
             <img
             src={union}
             alt="background-patterns"
-            className=" pointer-events-none select-none w-[108px] h-[224px] xl:w-[100%] xl:h-[100%]"
+            className=" pointer-events-none select-none w-[108px] h-[224px] md:w-[100%] md:h-[400px] xl:w-[100%] xl:h-[100%]"
             />
             <img
             src={union2}
             alt="background-patterns"
-            className=" pointer-events-none select-none w-[152px] h-[270px] xl:w-[100%] xl:h-[100%]"
+            className=" pointer-events-none select-none w-[152px] h-[270px] md:w-[100%] md:h-[500px]  xl:w-[100%] xl:h-[100%]"
             />
           </div>
 
@@ -37,7 +37,7 @@ const Hero = () => {
             <h2
               className={clsx(
                 texts.berk_h2_bold,
-                "animate__animated animate__fadeIn  text-start text-[47px] xl:text-[70px] xl:mr-[20px] px-[20px] xl:p-0  mx-auto xl:leading-[87px] text-mayhaven-blue xl:w-[585px]"
+                "max-w-[600px] text-center text-[47px] xl:text-[70px] xl:mr-[20px] px-[20px] xl:p-0  mx-auto xl:leading-[87px] text-mayhaven-blue xl:w-[585px]"
               )}
             >
               Innovate, grow and scale with us at  <span className="text-mayhaven-dark-brown"> Mayhaven</span>

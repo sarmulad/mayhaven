@@ -1,6 +1,8 @@
 import React from "react";
 import clsx from "classnames";
-import box from "assets/images/box.png";
+import businessImage from "assets/images/businessImage.png";
+import nigeriaImage from "assets/images/nigeriaImage.png";
+
 import business from "assets/images/business.svg";
 import nigeria from "assets/images/nigeria.svg";
 import texts from "assets/styles/texts";
@@ -39,8 +41,8 @@ const About = () => {
             <div className="hidden xl:block flex-shrink-0 mx-auto xl:mx-0 xl:ml-[126px]">
              <img
               className="object-contain pointer-events-none select-none w-[100%] h-[294px] xl:w-[450px] xl:h-[450px]"
-              src={box}
-              alt="inside Berks School"
+              src={businessImage}
+              alt="people talking"
               />
             </div>
           </div>
@@ -49,8 +51,8 @@ const About = () => {
             <div className=" flex-shrink-0 ">
              <img
               className=" hidden xl:block  object-contain pointer-events-none select-none w-[100%] h-[294px] xl:w-[450px] xl:h-[450px]"
-              src={box}
-              alt="img of object"
+              src={nigeriaImage}
+              alt="people talking"
               />
             </div>
             <div className="mt-[49px] xl:mt-0 max-w-[430px]">
