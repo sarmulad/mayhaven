@@ -15,16 +15,16 @@ const Footer = () => {
             Website:- www.mayhavenhub.com
           </a>
           <a
-            href={`tel:${contact.phone}`}
+            href={contact.whatsapp}
             className="flex text-mayhaven-white font-weight-[400px] leading-loose"
           >
-            Whatsapp:- +234 0000000000
+            Whatsapp:-09079313294
           </a>
           <a
             href={`tel:${contact.phone}`}
             className="flex text-mayhaven-white font-weight-[400px] leading-loose"
           >
-            Call:- +234 0000000000
+            Call:- 09079313294
           </a>
 
         </div>

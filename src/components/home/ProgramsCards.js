@@ -10,7 +10,7 @@ const Card = ({number, title1, title2, image}) => {
     return (
        <div className='flex flex-col w-[246px] mx-auto mb-[59px] p-8 gap-10 border border-mayhaven-brown'>
            <h2 
-             className="text-violet-900 text-[86.55845642089844px] font-extralight leading-7">
+             className="text-violet-900 text-[86.55845642089844px] font-extralight leading-7 mb-1">
              {number}
             </h2>
             <h3 className="text-violet-900 text-[28px] font-[400] ">
