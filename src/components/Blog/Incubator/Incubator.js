@@ -1,7 +1,4 @@
 import React from "react";
-import clsx from "classnames";
-import texts from "assets/styles/texts";
-import people from "assets/images/people.svg";
 import IncubatorImg from "assets/images/incubator.png";
 import Training from "assets/images/training.png";
 
