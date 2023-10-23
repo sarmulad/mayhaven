@@ -46,6 +46,7 @@ const DesktopNavbar = () => {
       </a>
       <div className="flex text-mayhaven-blue  gap-x-[48px] text-[16px]font-[400]">
         <NavItem href="/#about" label="About Us" setIsMobileNavOpen={() => {}}/>
+        <NavItem href="/blog" label="Blog" setIsMobileNavOpen={() => {}}/>
         <NavItem href="/#events" label="Our Services" setIsMobileNavOpen={() => {}}/>
         <NavItem href="/#programs" label="Projects & Programs" setIsMobileNavOpen={() => {}}/>
         <NavItem href="/#gallery" label="Gallery" setIsMobileNavOpen={() => {}}/>
@@ -75,6 +76,7 @@ const MobileNav = () => {
             </div>
              <div className="flex text-white flex-col gap-[48px] pt-[50px]">
                 <NavItem href="/#about" label="About Us" setIsMobileNavOpen={handleMobileNavClose}/>
+                <NavItem href="/blog" label="Blog" setIsMobileNavOpen={() => {}}/>
                 <NavItem href="/#events" label="Our Services" setIsMobileNavOpen={handleMobileNavClose}/>
                 <NavItem href="/#programs" label="Projects & Programs" setIsMobileNavOpen={handleMobileNavClose}/>
                 <NavItem href="/#gallery" label="Gallery" setIsMobileNavOpen={handleMobileNavClose}/>
